@@ -72,6 +72,7 @@ class GenericResource
         }
 
         foreach ($permissions as $permission) {
+            
             if (empty( $permission['permission_name'] )) {
                 return true;
             }
